@@ -1,0 +1,555 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    /* border:  2px solid red; */
+}
+nav{padding: 35px;
+    background-color: #252e39;
+    color: rgba(242,244,246,.9);
+    height: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+nav  img{
+    height: 36px;
+   
+}
+nav ul{margin-right: 300px;
+    width: 400px;
+    display: flex;
+    list-style: none;
+    font-size: 18px;
+    font-weight: 400;
+    /* background-color: yellow; */
+
+    justify-content: space-between;
+    align-items: center;
+    
+}
+nav ul i{
+    font-size: 8px;
+    
+    padding: 5px;
+    
+    
+}
+.try-btn{width: 320px;
+    margin-right: 30px;
+
+    display: flex;
+    align-items: center;
+
+    /* background-color: red; */
+    
+    
+    justify-content: space-between;
+    /* background-color: red; */
+    
+}
+.try-btn button{
+    background-color: #0f79af;
+    border: none;
+    color: rgba(242,244,246,.9);
+    padding: 15px 20px;
+    border-radius: 3px;
+    font-size: 16px;
+    line-height: 50%;
+    font-weight: 100;
+}
+.try-btn i {
+    font-size: 20px;
+    
+    /* margin-left: 5px; */
+}
+.try-btn p{
+    padding: 5px;
+    
+}
+.container{ height: 100vh;
+    background-image: url(./images/MLP.jpg);
+    color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+width: 100%;
+padding: 50px;
+background-size: cover;
+background-position: center;
+}
+
+.container h1{ font-size: 50px;
+    /* font-weight: 300; */
+    margin-bottom: 30px;
+
+}
+.container p{
+    /* font-weight: 100; */
+    margin-bottom: 20px;
+    font-size: 25px;
+    width: 500px;
+    
+
+}
+.container button{
+    background-color: #0f79af;
+    color: white;
+    padding: 15px 30px;
+    width: 250px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.container-two{
+    width: 100%;
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   /* background-color: black; */
+
+}
+.image-section{width: 60%;
+    height: 100vh;
+    background-image: url(./images/TVOD_MLP_Left._SX1440_CR0\,0\,865\,675_QL80_AC_FP_.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.text-section{width: 40%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    
+    
+    
+}
+.text-section h1{margin-top: 80PX;
+    width: 500px;
+    
+    font-size: 40px;
+    
+    /* font-weight: 500; */
+    
+    
+}
+.text-section p{
+    font-size: 22px;
+    margin-top: 25px;
+}
+.text-section button{
+    background-color: #0f79af;
+   color: white;
+   padding: 15px 95px;
+   font-size: 18px;
+   margin-top: 30px;
+   border-radius: 5px;
+}
+.container-three{
+    height: 100vh;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    padding: 50px;
+
+}
+.grid-text{height: 100vh;
+    width: 50%;
+    
+
+}
+.grid-text h1{
+    font-size: 45px;
+    /* font-weight: 500; */
+    margin-top: 30px;
+    
+}
+.grid-text p{
+    font-size: 23px;
+    font-weight: 700;
+    margin-top: 40px;
+}
+
+.grid-image{padding: 20px;
+    width: 50%;
+    display: grid;
+    height: 100vh;
+    grid-gap: 5px;
+    grid-template-columns: repeat(3 , 1fr);
+    /* height: 100vh; */
+    
+}
+
+
+.item{
+    background-color: yellow;
+    transition: all ease-in-out 0.3s;
+    
+}
+.item:hover{
+    transform: scale(110%);
+    box-shadow: 1px 6px 53px -7px rgba(0,0,0,0.73);
+}
+.item:first-child{
+    background-image: url(./images/LionsgatePlay-426X2946_V1.jpg);
+    background-size: cover;
+    
+}
+.item:nth-child(2){
+    background-image: url(./images/426x294_Discovery.jpg);
+    background-size: cover;
+}
+.item:nth-child(3){
+    background-image: url(./images/Erosnow-426X2948_V1.jpg);
+    background-size: cover;
+}
+.item:nth-child(4){
+    background-image: url(./images/426x294_MANORAMAMAX.jpg);
+    background-size: cover;
+}
+.item:nth-child(5){
+    background-image: url(./images/hoichoi-426X2946_V1.jpg);
+    background-size: cover;
+}
+.item:nth-child(6){
+   background-image: url(./images/Vrott.png);
+    background-size: cover;
+}
+.item:nth-child(7){
+   background-image: url(./images/Amc.png);
+    background-size: cover;
+}
+.item:nth-child(8){
+   background-image: url(./images/Docubay-426X2947_V1.jpg);
+    background-size: cover;
+}
+.item:nth-child(9){
+   background-image: url(./images/Mubi-426X2946_V1.jpg);
+    background-size: cover;
+}
+.item:nth-child(10){
+   background-image: url(./images/iWonder.png);
+    background-size: cover;
+}
+.item:nth-child(11){
+   background-image: url(./images/Hayu.png);
+    background-size: cover;
+}
+.item:nth-child(12){
+   background-image: url(./images/Stingray.png);
+    background-size: cover;
+}
+.remote-sec{width: 100%;
+    height: 100vh;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.remote-image{width: 55%;
+    height: 100vh;
+    background-color: black;
+    background-image: url(./images/remote.jpg);
+    background-size: cover;
+    
+}
+.remote-text{width: 50%;
+    background-color: black;
+    height: 100vh;
+    color: white;
+    padding: 40px;
+    
+    
+   
+    
+    
+}
+.remote-text h1{
+    font-size: 38px;
+    margin-top: 20px;
+    margin-right: 70px;
+    font-weight: 500;
+    font-family: 'Noto Sans Adlam Unjoined', sans-serif;
+    
+   
+
+    
+}
+.remote-text p{
+    font-size: 20px;
+    margin-top: 35px;
+    font-weight: 600;
+    line-height: 28px;
+    
+}
+.started-btn{
+    background-color: #0f79af;
+    padding: 18px 95px;
+    margin-top: 45px;
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+    border-radius: 5px;
+    font-family: 'Noto Sans Adlam Unjoined', sans-serif;
+}
+.last-sec{color: white;
+    width: 100%;
+   height: 100vh;
+   background-size: cover;
+   background-position: center;
+   padding: 80px;
+   background-color: black;
+   background-image: url(./images/chota\ bhim.jpg);
+   
+
+}
+.last-text h1{
+    font-size: 35px;
+    margin-top: 20px;
+    font-weight: 800;
+
+}
+.last-text p{
+    width: 500px;
+    margin-top: 30px;
+    font-size: 20px;
+
+}
+.last-btn{
+    background-color: #0f79af;
+    padding: 15px 50px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.last-text{
+    height: 100vh;
+}
+.footer-sec{width: 100%;
+    background-color: #262628;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+span a{
+    color: #0f79af;
+    width: 400px;
+    margin-right:10px ;
+    margin-top: 5px;
+    text-decoration: none;
+}
+.footer-sec p{
+    color: #949494;
+    margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+@media(max-width:768px){
+    nav img{
+        height: 20px;
+    }
+    .try-btn{width: 100%;
+        margin-left: 30px;
+        
+        
+        
+    }
+    .try-btn i{
+        margin-left: 20px;
+    }
+    .try-btn button{width: 100%;
+        padding: 10px 20px;
+    }
+    .try-btn p{
+       display: none;
+        
+    }
+   
+    nav{
+        height: 10px;
+        width: 100%;
+       
+         }
+    nav ul{
+        display: none;
+    }
+   
+    .container{background-image: url(./images/PicsArt_01-23-04.17.58.jpg);
+        width: 100%;
+        height: 120vh;
+        display: flex;
+        align-items: center;
+        background-size: cover;
+        background-position: center;
+        
+        
+        
+    }
+    /* .container p{width: 200px; */
+
+        
+    
+    /* } */
+   .container button{width:350px;
+    
+
+   }
+   .container h1{width: 350px;
+    margin-top: 300px;
+    text-align: center;
+
+   }
+   .container p{
+    /* background-color: red; */
+    text-align: center;
+    width: 350px;
+    font-weight: 800;
+    /* margin-bottom: 30px; */
+   }
+   .container-two{
+    width: 100%;
+    flex-wrap: wrap;
+    height: 100vh;
+    background-color: white;
+    
+   }
+   .image-section{width: 100%;
+    height: 100vh;
+    /* margin-top: 50px; */
+   
+   
+   }
+   .text-section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+    flex-direction: column;
+    height: 70vh;
+    
+   }
+   .text-section h1{
+    width: 300px;
+    
+    text-align: center;
+    margin-top: 80px;
+   }
+   .text-section p{
+    text-align: center;
+    
+    font-weight: 900;
+   }
+  .container-three{width: 100%;
+        height: 100vh;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       /* flex-direction: column; */
+       flex-wrap: wrap;
+       background-color: white;
+       /* display: none; */
+
+    }
+      
+     .grid-text{ width: 100%; 
+        height: 60vh;
+        margin-top: 800px;
+        background-color: white;
+     
+    }
+    
+    .grid-image{
+        width: 100%;
+        display: grid;
+        height: 100vh;
+        background-color: white;
+        
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6,1fr);
+      
+    }
+    
+    .remote-sec{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        background-color: white;
+    }
+    .remote-image{
+        width: 100%;
+        height: 55vh;
+        margin-top: 1600px;
+        /* background-position: center; */
+        background-size: cover;
+        
+
+    }
+    .remote-text{text-align: center;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .remote-text h1{
+        margin-right: 20px;
+    }
+
+    .last-sec{width: 100%;
+        height: 150px;
+margin-top: 1900px;
+background-image: none;
+
+color: black;
+
+    }
+    .last-btn{
+        padding: 10px 15px;
+        margin-bottom: 50px;
+    }
+    .last-text{width: 100%;
+    
+        
+        height: 500px;
+        margin-top:40px;
+        /* background-color: black; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .last-sec p{
+        width: 200px;
+      
+    }
+  
+   
+    
+   
+  .footer-sec{
+    width: 100%;
+    margin-top: 400px;
+    height: 30vh;
+    
+  }
+  
+  
+}
